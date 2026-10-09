@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: rgb(255, 255, 255);
+}
+
+header {
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(104, 84, 84);
+}
+
+/* this is the title-icon of the website */
+#title{ 
+    width: 40vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.6rem;
+    background: rgb(93, 199, 96);
+}
+
+header .logo {
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo nav {
+    width: 60vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;  
+}
+
+header .logo nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: .8rem;
+    padding: 1rem .5rem;
+    border-radius: 5px;
+}
+
+
