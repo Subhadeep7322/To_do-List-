@@ -5,54 +5,53 @@
 }
 
 body {
-    width: 100%;
-    height: 100vh;
-    background: rgb(255, 255, 255);
+    width: 100vw;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    background-color: #F7F8FA;
 }
 
 header {
-    width: 100%;
+    width: 100vw;
     height: 8vh;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    align-items: center;
-    background: rgb(104, 84, 84);
-}
-
-/* this is the title-icon of the website */
-#title{ 
-    width: 40vw;
-    height: 8vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 1.6rem;
-    background: rgb(93, 199, 96);
+    background-color: white;
+    box-shadow: 0 0 30px #E5E8EF;
+    font-family: "Inter", sans-serif;
 }
 
 header .logo {
-    width: 60vw;
+    width: 20vw;
+    height: 100%;
     display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: center;
 }
 
-header .logo nav {
-    width: 60vw;
-    height: 8vh;
+header .logo img {
+    height: 6vh;
+    position: relative;
+    top: 3px;
+}
+
+header nav {
+    width: 70vw;
+    height: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;  
+    justify-content: space-evenly;
 }
 
-header .logo nav a {
+header nav a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: .8rem;
-    padding: 1rem .5rem;
-    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #697386;
 }
 
-
+header nav a:active {
+    color: #5B6CFF;
+}
